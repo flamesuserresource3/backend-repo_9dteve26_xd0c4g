@@ -1,7 +1,16 @@
 INFO:     Will watch for changes in these directories: ['/home/workspace']
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     Started reloader process [306] using StatReload
-INFO:     Started server process [308]
+INFO:     Started reloader process [377] using StatReload
+INFO:     Started server process [379]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     172.20.0.1:56630 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:43408 - "GET /api/tickers?symbols=AAPL%2CTSLA%2CNVDA%2CBTC-USD%2CNSE%3ATCS&provider=finnhub HTTP/1.1" 200 OK
+INFO:     172.20.0.1:43420 - "GET /api/tickers?symbols=AAPL,TSLA,NVDA&provider=finnhub HTTP/1.1" 200 OK
+INFO:     172.20.0.1:43422 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:43420 - "GET /api/tickers?symbols=AAPL%2CTSLA%2CNVDA%2CBTC-USD%2CNSE%3ATCS&provider=finnhub HTTP/1.1" 200 OK
+INFO:     172.20.0.1:43408 - "GET /api/tickers?symbols=AAPL,TSLA,NVDA&provider=finnhub HTTP/1.1" 200 OK
+INFO:     172.20.0.1:43420 - "GET /api/tickers?symbols=AAPL%2CTSLA%2CNVDA%2CBTC-USD%2CNSE%3ATCS&provider=finnhub HTTP/1.1" 200 OK
+INFO:     172.20.0.1:43408 - "GET /api/tickers?symbols=AAPL,TSLA,NVDA&provider=finnhub HTTP/1.1" 200 OK
+INFO:     172.20.0.1:41616 - "GET /api/tickers?symbols=AAPL%2CTSLA%2CNVDA%2CBTC-USD%2CNSE%3ATCS&provider=finnhub HTTP/1.1" 200 OK
+INFO:     172.20.0.1:41630 - "GET /api/tickers?symbols=AAPL,TSLA,NVDA&provider=finnhub HTTP/1.1" 200 OK
+INFO:     172.20.0.1:41616 - "GET /api/tickers?symbols=AAPL%2CTSLA%2CNVDA%2CBTC-USD%2CNSE%3ATCS&provider=finnhub HTTP/1.1" 200 OK
